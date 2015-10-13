@@ -1,6 +1,13 @@
-
+/**
+ * Classe que verifica se uma senha é forte ou fraca
+ * 
+ * @author bsiccet
+ */
 public class VerificadorSenha
 {
+	/**
+	 * Verifica se uma senha é forte
+	 */
 	public boolean verificaSenhaForte(String senha) 
 	{
 		// Verificar se a senha tem 8 ou mais caracteres
@@ -34,36 +41,54 @@ public class VerificadorSenha
 		return true;
 	}
 
+	/**
+	 * Verifica se uma senha está em um dicionário de senhas comuns
+	 */
 	private boolean verificaDicionario(String senha) 
 	{
 		// TODO Auto-generated method stub
 		return false;
 	}
 
+	/**
+	 * Verifica se uma senha é uma data
+	 */
 	private boolean verificaData(String senha) 
 	{
 		// TODO Auto-generated method stub
 		return false;
 	}
 
+	/**
+	 * Verifica se uma senha tem um caractere de pontuação
+	 */
 	private boolean verificaCaracterePontuacao(String senha) 
 	{
 		// TODO Auto-generated method stub
 		return false;
 	}
 
+	/**
+	 * Verifica se uma senha tem um caractere maiúsculo
+	 */
 	private boolean verificaCaractereMaiusculo(String senha) 
 	{
 		// TODO Auto-generated method stub
 		return false;
 	}
 
+	/**
+	 * Verifica se uma senha tem um caractere minúsculo
+	 */
 	private boolean verificaCaractereMinusculo(String senha) 
 	{
 		// TODO Auto-generated method stub
 		return false;
 	}
 
+	/**
+	 * Verifica se uma senha tem um caractere numérico
+	 */
 	private boolean verificaCaractereNumerico(String senha) 
 	{
 		// TODO Auto-generated method stub

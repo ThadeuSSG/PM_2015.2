@@ -1,5 +1,5 @@
 /**
- * Classe que converte um número para sua representação em romanos
+ * Classe que converte um nï¿½mero para sua representaï¿½ï¿½o em romanos
  *
  * @author PM
  */

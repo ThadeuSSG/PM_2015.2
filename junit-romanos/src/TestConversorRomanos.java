@@ -2,7 +2,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Classe de teste para o gerador de conversor de números romados
+ * Classe de teste para o gerador de conversor de nï¿½meros romados
  *
  * @author PM
  */
@@ -52,7 +52,8 @@ public class TestConversorRomanos
 	}
 
 	@Test
-	public void testZero() throws Exception {
+	public void testZero() throws Exception 
+	{
 		ConversorRomanos2 gerador = new ConversorRomanos2();
 		assertEquals("", gerador.geraNumeroRomano(0));
 	}

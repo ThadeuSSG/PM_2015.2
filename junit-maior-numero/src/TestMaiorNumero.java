@@ -41,18 +41,10 @@ public class TestMaiorNumero
 		assertEquals(3, maior.pegaMaior(new int[] {3, 1, 2, 3}));
 	}
 
-	@Test
+	@Test(expected=Exception.class)
 	public void testVazio() throws Exception
 	{
-		try
-		{
-			MaiorNumero maior = new MaiorNumero();
-			maior.pegaMaior (new int[] {});
-			fail("Ops! Deveria ter ocorrido uma exceção");
-		}
-		catch (Exception e)
-		{
-			assertTrue(true);
-		}
+		MaiorNumero maior = new MaiorNumero();
+		maior.pegaMaior (new int[] {});
 	}
 }
